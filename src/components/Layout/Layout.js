@@ -1,6 +1,6 @@
 import React from 'react';
-import Aux from '../../hoc/Aux'
-import classes from './Layout.css'
+import Aux from '../../hoc/Aux';
+import classes from './Layout.css';
 
 const laytout = (props) => (
     <Aux>
@@ -12,5 +12,7 @@ const laytout = (props) => (
         </main>
     </Aux>
 );
+
+console.log('classes - ' + classes.Content);
 
 export default laytout;
