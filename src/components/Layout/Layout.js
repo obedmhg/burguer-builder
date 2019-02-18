@@ -13,6 +13,4 @@ const laytout = (props) => (
     </Aux>
 );
 
-console.log('classes - ' + classes.Content);
-
 export default laytout;
