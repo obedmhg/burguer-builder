@@ -1,5 +1,5 @@
 import React from 'react';
-import Aux from '../../../hoc/Aux';
+import Aux from '../../../hoc/Aux1';
 
 const orderSummary = (props) => {
     const ingrdientSummary = Object.keys(props.ingredients)
@@ -20,4 +20,5 @@ const orderSummary = (props) => {
         </Aux>
     );
 }
+
 export default orderSummary;
