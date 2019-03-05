@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Layout from './components/Layout/Layout'
 import BurgerBuilder from './containers/BurgerBuilder/BurgerBuilder';
-import Axios from './components/Axios/Axios';
 
 class App extends Component {
   render() {
@@ -10,7 +9,6 @@ class App extends Component {
           <Layout>
               <BurgerBuilder></BurgerBuilder>
           </Layout>
-          <Axios/>
       </div>
     );
   }
