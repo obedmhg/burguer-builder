@@ -39,6 +39,13 @@ class BurgerBuilder extends Component {
         this.setState({purchasing: false});
     }
 
+    componentDidMount() {
+        axios.get('/ingredients.json')
+            .then(response => {
+                this.setState({ingredients : response.data});
+            });
+    }
+
     purchaseContinueHandler = () => {
         this.setState({loading: true});
         const order = {
