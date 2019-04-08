@@ -58,7 +58,7 @@ class BurgerBuilder extends Component {
                     zipCode: '12354',
                     country: 'Mexico'
                 },
-                email: 'test@test.com'
+                email: 'obedmhg@gmail.com'
             },
             deliveryMethod: 'express'
         };
