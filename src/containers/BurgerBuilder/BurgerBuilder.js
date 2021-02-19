@@ -54,7 +54,7 @@ class BurgerBuilder extends Component {
             customer: {
                 name: 'Obed Murillo',
                 address: {
-                    street: 'test 123',
+                    street: 'test address 123',
                     zipCode: '12354',
                     country: 'Mexico'
                 },
